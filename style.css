@@ -249,12 +249,13 @@ h1{
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0;
-  cursor: pointer;
+/*   cursor: pointer; */
 }
 
 [data-type="image-overlay"]:hover [data-element="overlay"] ,
 [data-type="image-overlay"]:focus-within [data-element="overlay"] {
   opacity: 1;
+  cursor: pointer;
 }
 
 [data-type="hover"]:hover,
