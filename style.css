@@ -249,6 +249,7 @@ h1{
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0;
+  cursor: pointer;
 }
 
 [data-type="image-overlay"]:hover [data-element="overlay"] ,
